@@ -21,6 +21,7 @@ header div{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 15px;
+    flex-direction: column;
 }
 main{
     display: flex;

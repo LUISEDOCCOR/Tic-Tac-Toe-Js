@@ -42,11 +42,11 @@ function winer(){
     
       if (hasWinCombo(userx)) {
         alertwin.innerHTML = ""
-        alertwin.innerHTML = 'Win: <br> X'
+        alertwin.innerHTML = `Win<br>${iconx}`
         alertwin.style.display = "flex";
       } else if (hasWinCombo(usery)) {
         alertwin.innerHTML = ""
-        alertwin.innerHTML = 'Win: <br> Y'
+        alertwin.innerHTML = `Win<br>${icony}` 
         alertwin.style.display = "flex";
       }
     }
