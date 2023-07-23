@@ -77,6 +77,8 @@ button:hover{
     .card{
         height: 25vw;
         width: 25vw;
+        cursor: none;
+
     }
     .card:hover{
         opacity: 1;
@@ -87,6 +89,7 @@ button:hover{
         width: 60vw;
         text-align: center;
         font-size: 18px;
+        cursor: none;
 
     }
     button:hover{
