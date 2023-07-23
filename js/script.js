@@ -44,13 +44,23 @@ function winer(){
         alertwin.innerHTML = ""
         alertwin.innerHTML = `Win<br>${iconx}`
         alertwin.style.display = "flex";
-      } else if (hasWinCombo(usery)) {
+        resetCards()
+        } else if (hasWinCombo(usery)) {
         alertwin.innerHTML = ""
-        alertwin.innerHTML = `Win<br>${icony}` 
+        alertwin.innerHTML = `Win<br>${icony}`
         alertwin.style.display = "flex";
+        resetCards()
+    
       }
     }
+
+
     
+function resetCards(){
+    cards.forEach(i =>{
+        i.innerHTML = " "
+    })
+}
 
 
 function reset(){
